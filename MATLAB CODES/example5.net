@@ -1,0 +1,68 @@
+net example
+tr t0 -> p0 p20 
+tr t1 -> p10 p30 
+tr t2 p2 p9 p16 p22 p29 p36 -> p3 p17 p23 p37 
+tr t3 p2 p9 p16 p22 p29 p37 -> p3 p17 p23 p38 
+tr t4 p2 p9 p17 p22 p29 p36 -> p3 p18 p23 p37 
+tr t5 p2 p9 p17 p22 p29 p37 -> p3 p18 p23 p38 
+tr t6 p5 p25 -> p2 p22 
+tr t7 p9 p12 p16 p29 p32 p36 -> p13 p16 p33 p36 
+tr t8 p9 p12 p16 p29 p32 p37 -> p13 p16 p33 p36 
+tr t9 p9 p12 p16 p29 p32 p38 -> p13 p16 p33 p36 
+tr t10 p9 p12 p17 p29 p32 p36 -> p13 p16 p33 p36 
+tr t11 p9 p12 p17 p29 p32 p37 -> p13 p16 p33 p36 
+tr t12 p9 p12 p17 p29 p32 p38 -> p13 p16 p33 p36 
+tr t13 p9 p12 p18 p29 p32 p36 -> p13 p16 p33 p36 
+tr t14 p9 p12 p18 p29 p32 p37 -> p13 p16 p33 p36 
+tr t15 p9 p12 p18 p29 p32 p38 -> p13 p16 p33 p36 
+tr t16 p15 p35 -> p12 p32 
+tr t17 p0 p6 -> p1 
+tr t18 p1 -> p8 
+tr t19 p6 p10 -> p11 
+tr t20 p11 -> p8 
+tr t21 p7 -> p6 
+tr t22 p8 -> p9 
+tr t23 p3 -> p4 p7 
+tr t24 p4 -> p5 
+tr t25 p13 -> p7 p14 
+tr t26 p14 -> p15 
+tr t27 p20 p26 -> p21 
+tr t28 p21 -> p28 
+tr t29 p26 p30 -> p31 
+tr t30 p31 -> p28 
+tr t31 p27 -> p26 
+tr t32 p28 -> p29 
+tr t33 p23 -> p24 p27 
+tr t34 p24 -> p25 
+tr t35 p33 -> p27 p34 
+tr t36 p34 -> p35 
+tr t37 p2 p9 p19 -> p3 p19 
+tr t38 p9 p12 p19 -> p13 p19 
+tr t39 p2 p9 p18 -> p3 p19 
+tr t40 -> p20 
+tr t41 p20 p26 -> p21 
+tr t42 p21 -> p28 
+tr t43 -> p30 
+tr t44 p26 p30 -> p31 
+tr t45 p31 -> p28 
+tr t46 p27 -> p26 
+tr t47 p28 -> p29 
+tr t48 p23 -> p24 p27 
+tr t49 p24 -> p25 
+tr t50 p25 -> p22 
+tr t51 p33 -> p27 p34 
+tr t52 p34 -> p35 
+tr t53 p35 -> p32 
+tr t54 p22 p29 p36 -> p23 p37 
+tr t55 p22 p29 p37 -> p23 p38 
+tr t56 p29 p32 p36 -> p33 p36 
+tr t57 p29 p32 p37 -> p33 p36 
+tr t58 p29 p32 p38 -> p33 p36 
+pl p2 (1)
+pl p6 (2)
+pl p12 (1)
+pl p16 (1)
+pl p22 (1)
+pl p26 (2)
+pl p32 (1)
+pl p36 (1)

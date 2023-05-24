@@ -1,0 +1,35 @@
+net example2
+tr t0 p0 p14 -> p0 p10 p14 p24 
+tr t1 p0 p14 -> p1 p4 p7 p15 p18 p21 
+tr t2 p5 p19 -> p6 p20 
+tr t3 p3 p6 p9 p11 p17 p20 p23 p25 -> p11 p25 
+tr t4 p3 p6 p9 p11 p17 p20 p23 p26 -> p11 p25 
+tr t5 p3 p6 p9 p12 p17 p20 p23 p25 -> p11 p25 
+tr t6 p3 p6 p9 p12 p17 p20 p23 p26 -> p11 p25 
+tr t7 p2 -> p3 
+tr t8 p4 -> p5 
+tr t9 p7 -> p8 
+tr t10 p8 -> p9 
+tr t11 p1 p11 -> p2 p12 
+tr t12 p16 -> p17 
+tr t13 p18 -> p19 
+tr t14 p21 -> p22 
+tr t15 p22 -> p23 
+tr t16 p15 p25 -> p16 p26 
+tr t17 p1 p13 -> p2 p13 
+tr t18 p3 p6 p9 p13 -> p13 
+tr t19 p1 p12 -> p2 p13 
+tr t20 p14 -> p14 p24 
+tr t21 p14 -> p15 p18 p21 
+tr t22 p16 -> p17 
+tr t23 p18 -> p19 
+tr t24 p19 -> p20 
+tr t25 p21 -> p22 
+tr t26 p22 -> p23 
+tr t27 p15 p25 -> p16 p26 
+tr t28 p17 p20 p23 p25 -> p25 
+tr t29 p17 p20 p23 p26 -> p25 
+pl p0 (2)
+pl p11 (1)
+pl p14 (2)
+pl p25 (1)
