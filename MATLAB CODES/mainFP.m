@@ -8,7 +8,7 @@ function [A,M,tf] = mainFP(name1,m1,n1,name2,m2,n2,L1,L2,SF,F)
 %m2 the number of places of a fault pattern net
 %n2 the number of transitions of a fault pattern net
 %L1 a cell array each row contains indices of observable transitions with the same label of a plant net
-%L2 a cell array each row contains indices of observable transitions with the same label of a fault pattern net
+%L2 a cell array each row contains indices of observable transitions with the same label of a fault pattern net 
 %L2 has the same number of rows as L1, empty matrix reprents no observable transition
 %SF the bijective function e.g., [3 1;3 2]   (t3,N1)  (t3,N2)
 %F the index of the fault place

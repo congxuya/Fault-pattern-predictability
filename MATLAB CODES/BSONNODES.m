@@ -13,7 +13,7 @@ tpre1=tpre(T1,:);
 tpos1=tpos(T1,:);
 m=size(M01,2);  %the number of places
 n2=size(T2,2);   %the number of transitions in the T2-induced subnet
-n=size(tpos,1);  %the number of transitions in the fault pattern predictor net
+n=size(tpos,1);  %the number of transitions in a fault pattern predictor net
 N=tpos-tpre;
 
 E1=zeros(1,size(L(:,T1),2));
